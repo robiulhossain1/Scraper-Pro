@@ -67,4 +67,4 @@ def update_playlist():
 # Infinite loop to run the script every 2 minutes
 while True:
     update_playlist()  # Update the playlist
-    time.sleep(120)  # Wait for 2 minutes before running again
+    time.sleep(1)  # Wait for 2 minutes before running again
